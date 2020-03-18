@@ -1,0 +1,293 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+        "head head head"
+        "hero hero hero"
+        "omenu omenu omenu"
+        "car car car"
+        ". usp ."
+        "sguide sguide sguide"
+        ". best ."
+        "foot foot foot"
+    ;
+    grid-template-rows: auto 800px auto 700px auto;
+    grid-template-columns: 10% auto 10%;
+
+}
+
+header {
+    grid-area: head;
+}
+
+.hero {
+    grid-area: hero;
+
+}
+
+.categories-orange-menu {
+    grid-area: omenu;
+
+}
+
+.carousel {
+    grid-area: car;
+}
+
+.usp {
+    grid-area: usp;
+}
+
+.style-guide {
+    grid-area: sguide;
+}
+
+.bestsellers {
+    grid-area: best;
+}
+
+footer {
+    grid-area: foot;
+}
+
+/****************** HERO ******************/
+.hero {
+    background: url(/img/hero.jpg) bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.hero div {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(68, 68, 68, 0.87);
+    padding: 40px 125px;
+}
+
+.hero h2 {
+    font-size: 6rem;
+    margin: 0;
+}
+
+.hero h1 {
+    font-size: 2.9rem;
+    color: var(--orange);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero h3 {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+/****************** ORANGE CATEGORY MENU ******************/
+.categories-orange-menu {
+    background-color: var(--burnt-orange);
+}
+
+.categories-orange-menu nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 35px 0;
+}
+
+
+.categories-orange-menu a {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 25px;
+}
+
+.categories-orange-menu a:hover {
+    color: var(--dark-grey);
+    transition: 0.2s;
+}
+
+/****************** CAROUSEL ******************/
+.carousel {
+    background: url(/img/boatshoes.jpg);
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20%;
+    align-items: center;
+}
+
+.summer-ready {
+    width: 35%;
+    text-align: left;
+}
+
+.carousel h2,
+.style-guide h2 {
+    font-family: 'Kreon', Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-family: Kreon;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1;
+
+}
+
+.carousel h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 20px 0 40px 0;
+
+}
+
+
+/****************** USP ******************/
+.usp {
+    margin: 20px 200px;
+    font-size: 1.2rem;
+}
+
+.usp ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.usp ul li {
+    display: flex;
+    align-items: center;
+}
+
+.usp img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+/****************** STYLE GUIDE ******************/
+.style-guide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 10%;
+    background-color: var(--grey-blue);
+}
+
+
+.style-guide div {
+    margin-left: 10%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.style-guide div * {
+    margin: 0.8rem 0;
+}
+
+.style-guide h2 {
+    text-transform: none;
+    font-size: 7rem;
+    margin-bottom: 1.3rem;
+}
+
+.style-guide h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.style-guide p {
+    line-height: 2;
+}
+
+/****************** BESTSELLERS PRODUCTS ******************/
+.bestsellers {
+    margin: 10% 0;
+}
+
+.single-product {
+    position: relative;
+}
+
+.products p {
+    margin: 0;
+}
+
+.new {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.heart {
+    height: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+
+}
+
+.shoe-picture {
+    width: 300px;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    min-height: 80px;
+}
+
+.product-info div * {
+    margin: 0;
+}
+
+.product-info div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.product-info div:nth-child(2) {
+    text-align: right;
+}
+
+.products p {
+    font-size: 0.9rem;
+}
+
+.price {
+    font-size: 1.2rem !important;
+    font-weight: 600;
+}
+
+a.small-underline {
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+a.small-underline:hover {
+    text-decoration: none;
+}
+
+a.small-underline:active {
+    font-weight: 400;
+}

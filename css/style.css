@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:300,400,600,700,800|Kreon:300,700&display=swap');
+
+:root {
+    --grey-blue: #F5F4F7;
+    --yellow: #FFC129;
+    --red: #FF003A;
+    --orange: #DB9134;
+    --burnt-orange: #C2703D;
+    --brown: #A96D48;
+    --light-grey: #F3F3F3;
+    --medium-grey: #8C8C8C;
+    --medium-light-grey: #CDCDCD;
+    --dark-grey: #444444;
+    --extra-light-grey: #FCFCFC;
+}
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Kreon', serif; */
+
+html,
+body {
+    margin: 0;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.logo {
+    font-family: 'Kreon', Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 3.125rem;
+    font-family: Kreon;
+    font-weight: 300;
+    letter-spacing: 0.085em;
+    margin: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/****************** BUTTONS ******************/
+.yellow-button {
+    background-color: var(--yellow);
+    margin-top: 45px;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.yellow-button:hover {
+    background-color: var(--burnt-orange);
+}
+
+.yellow-button:active {
+    color: white;
+}
+
+.secondary-button {
+    margin-top: 45px;
+    padding: 8px 20px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 2px solid var(--yellow);
+}
+
+.secondary-button:hover {
+    background-color: var(--yellow);
+}
+
+.secondary-button:active {
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
+}
+
+/****************** ORANGE TOP LINE ******************/
+.top-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: var(--orange);
+    color: rgb(255, 255, 255);
+}
+
+.top-line>* {
+    flex: 1;
+}
+
+.top-line * {
+    margin: 0;
+    font-size: 0.75rem;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.top-line p:last-child {
+    flex: 2;
+}
+
+.top-line nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.top-line li {
+    margin: 6px;
+}
+
+.top-line a {
+    color: rgb(255, 255, 255);
+}
+
+.top-line a:hover {
+    text-decoration: underline;
+}
+
+/****************** MAIN TOP MENU BAR ******************/
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: var(--grey-blue);
+}
+
+.main-menu>* {
+    flex: 1;
+}
+
+.main-menu .logo {
+    flex: 2;
+}
+
+
+.icon-menu nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-menu ul li {
+    margin: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.icon-menu ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.icon-menu img {
+    height: 25px;
+    margin-bottom: 5px;
+    background-color: var(--grey-blue);
+}
+
+/****************** HAMBURGER SIDE TOGGLE MENU ******************/
+#exit-icon {
+    height: 20px;
+    margin-left: 275px;
+    cursor: pointer;
+}
+
+.hamburger-menu {
+    position: fixed;
+    left: 2rem;
+    top: 45px;
+    z-index: 1;
+}
+
+#toggle-menu {
+    cursor: pointer;
+    height: 50px;
+}
+
+.side-menu {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 40px;
+    width: 15%;
+    text-align: left;
+
+}
+
+.side-menu li:hover {
+    font-weight: 800;
+    transition: 0.2s;
+}
+
+.hamburger-menu ul {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.hamburger-menu ul li {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 1.25rem;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+}
+
+.arrowdown-icon {
+    height: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.category-side-dropdown {
+    display: none;
+    margin: 0 !important;
+}
+
+.category-side-dropdown img {
+    height: 15px;
+    padding: 0 15px 0 20px;
+}
+
+.category-side-dropdown li a:hover {
+    transition: 0.2s;
+    font-weight: 800;
+    padding-left: 10px;
+}
+
+/****************** MAIN TOP MENU BOTTOM  ******************/
+.main-menu-bottom {
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0;
+}
+
+.main-menu-bottom ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.main-menu-bottom ul li {
+    margin: 10px;
+    padding-right: 20px;
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+.main-menu-bottom ul li:last-child {
+    border: none;
+    padding-right: 0;
+}
+
+.main-menu-bottom ul li a {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.main-menu-bottom ul li a:hover {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    position: relative;
+    width: 600px;
+}
+
+input[type="search"] {
+    border: none;
+    width: 600px;
+    padding: 10px 15px;
+    border: 1px solid rgb(0, 0, 0);
+    padding-left: 45px;
+    border-radius: 5px;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+input[type="search"]::placeholder {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.search-icon {
+    position: absolute;
+    width: 20px;
+    left: 12px;
+    top: 9px;
+}
+
+/****************** FOOTER ******************/
+footer {
+    background-color: var(--grey-blue);
+    padding-top: 25px;
+}
+
+.to-top-icon:hover {
+    transition: 0.2s;
+    transform: translate(0, -5px);
+}
+
+footer nav {
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: left;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+footer nav li {
+    padding-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .usp {
+    font-size: 0.9rem;
+}
+
+footer img {
+    width: 30px !important;
+}
+
+footer .usp {
+    width: 50%;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+/****************** FLEXBOXES ******************/
+.flex-row {
+    display: flex;
+
+}

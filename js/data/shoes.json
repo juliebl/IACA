@@ -1,0 +1,144 @@
+[{
+        "id": 1,
+        "name": "Lincoln Maxwell",
+        "image": "https://julielarsen.dev/IACA/img/shoes/1.jpg",
+        "rating": 5,
+        "price": 599,
+        "type": "everyday",
+        "color": "black",
+        "size": [41, 42, 43, 44],
+        "new": true
+    },
+
+    {
+        "id": 2,
+        "name": "Cohen wood",
+        "image": "https://julielarsen.dev/IACA/img/shoes/2.jpg",
+        "rating": 4,
+        "price": 450,
+        "type": "sandal",
+        "color": "brown",
+        "size": [41, 42, 43, 44, 45, 46],
+        "new": false
+    },
+
+    {
+        "id": 3,
+        "name": "Perry Aguirre",
+        "image": "https://julielarsen.dev/IACA/img/shoes/3.jpg",
+        "rating": 5,
+        "price": 899,
+        "type": "sandal",
+        "color": "brown",
+        "size": [43, 44, 45, 46],
+        "new": true
+    },
+
+    {
+        "id": 4,
+        "name": "Lincoln Maxwell",
+        "image": "https://julielarsen.dev/IACA/img/shoes/4.jpg",
+        "rating": 5,
+        "price": 750,
+        "type": "everyday",
+        "color": "blue",
+        "size": [41, 42, 43, 46],
+        "new": false
+    },
+    {
+        "id": 5,
+        "name": "Misbah Franco",
+        "image": "https://julielarsen.dev/IACA/img/shoes/5.jpg",
+        "rating": 5,
+        "price": 999,
+        "type": "dress",
+        "color": "black",
+        "size": [41, 44, 45, 46],
+        "new": false
+    },
+
+    {
+        "id": 6,
+        "name": "Teodor Knox",
+        "image": "https://julielarsen.dev/IACA/img/shoes/6.jpg",
+        "rating": 4,
+        "price": 650,
+        "type": "dress",
+        "color": "brown",
+        "size": [41, 42, 43, 44, 45, 46],
+        "new": true
+    },
+
+    {
+        "id": 7,
+        "name": "Perry Aguirre",
+        "image": "https://julielarsen.dev/IACA/img/shoes/7.jpg",
+        "rating": 5,
+        "price": 1199,
+        "type": "boots",
+        "color": "yellow",
+        "size": [41, 42, 43, 44, 45, 46],
+        "new": false
+    },
+
+    {
+        "id": 8,
+        "name": "Stefan Stott",
+        "image": "https://julielarsen.dev/IACA/img/shoes/8.jpg",
+        "rating": 4,
+        "price": 350,
+        "type": "boat",
+        "color": "brown",
+        "size": [41, 45, 46],
+        "new": true
+    },
+
+    {
+        "id": 9,
+        "name": "Winston Floyd",
+        "image": "https://julielarsen.dev/IACA/img/shoes/9.jpg",
+        "rating": 4,
+        "price": 550,
+        "type": "everyday",
+        "color": "brown",
+        "size": [43, 44, 45, 46],
+        "new": false
+    },
+
+    {
+        "id": 10,
+        "name": "Robson Stevens",
+        "image": "https://julielarsen.dev/IACA/img/shoes/10.jpg",
+        "rating": 5,
+        "price": 499,
+        "type": "everyday",
+        "color": "blue",
+        "size": [41, 42, 43, 44, 45, 46],
+        "new": false
+    },
+
+    {
+        "id": 11,
+        "name": "Stefan Stott",
+        "image": "https://julielarsen.dev/IACA/img/shoes/11.jpg",
+        "rating": 5,
+        "price": 650,
+        "type": "everyday",
+        "color": "blue",
+        "size": [41, 42, 43, 44, 45, 46],
+        "new": true
+    },
+
+    {
+        "id": 12,
+        "name": "Harrison Crane",
+        "image": "https://julielarsen.dev/IACA/img/shoes/12.jpg",
+        "rating": 5,
+        "price": 799,
+        "type": "loafer",
+        "color": "brown",
+        "size": [41, 42, 43],
+        "new": false
+    }
+
+]
